@@ -1,0 +1,17 @@
+package ch04;
+
+public class Quiz4 {
+    public static void main(String[] args) {
+        while(true){
+            int num1 = (int) (Math.random() * 6) + 1; //1~6까지의
+            int num2 = (int) (Math.random() * 6) + 1; //1~6까지의
+
+            System.out.println("(" + num1 + ", " + num2 + ")");
+
+            if ((num1 + num2) == 5) {
+                break;
+            }
+        }
+
+    }
+}
